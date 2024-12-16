@@ -1,0 +1,74 @@
+<html></html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Buscar Cámaras de Fotos</h2>
+        <form action="buscar_camaras.php" method="GET">
+
+            
+            <div class="form-group">
+                <label for="marca">Marca</label>
+                <select id="marca" name="marca">
+                    <option value="">Cualquier marca</option>
+                    <option value="Canon">Canon</option>
+                    <option value="Nikon">Nikon</option>
+                    <option value="Sony">Sony</option>
+                    <option value="Fujifilm">Fujifilm</option>
+                    <option value="Panasonic">Panasonic</option>
+                </select>
+            </div><br>
+
+            
+            <div class="form-group">
+                <label for="tipo">Tipo de Cámara</label>
+                <select id="tipo" name="tipo">
+                    <option value="">Cualquier tipo</option>
+                    <option value="Reflex">Réflex</option>
+                    <option value="Mirrorless">Mirrorless</option>
+                    <option value="Compacta">Compacta</option>
+                    <option value="Bridge">Bridge</option>
+                </select>
+            </div><br>
+
+            
+            <div class="form-group">
+                <label for="precio">Rango de Precio (€)</label>
+                <input type="text" id="precio" name="precio" placeholder="Ej. 300-1000">
+            </div><br>
+
+            
+            <div class="form-group">
+                <label for="resolucion">Resolución Mínima (MP)</label>
+                <input type="number" id="resolucion" name="resolucion" min="1" placeholder="Ej. 12">
+            </div><br>
+
+           
+            <div class="form-group">
+                <label>Funcionalidades Adicionales</label>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="wifi" name="funcionalidades" value="Wi-Fi">
+                    <label for="wifi">Wi-Fi</label>
+
+                    <input type="checkbox" id="4k" name="funcionalidades" value="4K">
+                    <label for="4k">Grabación en 4K</label>
+
+                    <input type="checkbox" id="estabilizador" name="funcionalidades" value="Estabilizador">
+                    <label for="estabilizador">Estabilizador de imagen</label>
+                </div><br>
+            </div>
+
+            
+            <div class="form-group">
+                <button type="submit">Buscar Cámaras</button>
+            </div>
+
+        </form>
+    </div>
+
+</body>
+</html>
