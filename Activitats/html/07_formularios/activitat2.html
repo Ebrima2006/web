@@ -1,0 +1,59 @@
+<html></html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Formulario de Compra de Altavoces</h2>
+        <form action="procesar.php" method="POST">
+            
+            
+            <div class="form-group">
+                <label for="modelo">Modelo</label>
+                <select id="modelo" name="modelo" required>
+                    <option value="">Selecciona un modelo</option>
+                    <option value="R4">R4</option>
+                    <option value="R5">R5</option>
+                    <option value="SR1">SR1</option>
+                </select>
+            </div><br>
+
+           
+            <div class="form-group">
+                <label for="potencia">Potencia Máxima (entre 50 y 100 W)</label>
+                <input type="number" id="potencia" name="potencia" min="50" max="100" required>
+            </div><br>
+
+            
+            <div class="form-group">
+                <label for="bluetooth">¿Incluir Bluetooth?</label>
+                <select id="bluetooth" name="bluetooth" required>
+                    <option value="Sí">Sí</option>
+                    <option value="No">No</option>
+                </select>
+            </div><br>
+
+            
+            <div class="form-group">
+                <label for="color">Color</label>
+                <select id="color" name="color" required>
+                    <option value="">Selecciona un color</option>
+                    <option value="Negro">Negro</option>
+                    <option value="Blanco">Blanco</option>
+                    <option value="Rojo">Rojo</option>
+                    <option value="Azul">Azul</option>
+                </select>
+            </div><br>
+
+            
+            <div class="form-group">
+                <button type="submit">Enviar Pedido</button>
+            </div>
+
+        </form>
+    </div>
+</body>
+</html>
