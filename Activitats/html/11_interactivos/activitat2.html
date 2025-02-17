@@ -1,0 +1,55 @@
+<html></html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buscador de Smartphones</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="buscador">
+    <h1>Busca tu Smartphone</h1>
+
+    <label for="marca">Selecciona la Marca:</label>
+    <input type="text" id="marca" name="marca" list="marcas" placeholder="Escribe una marca...">
+
+   
+    <datalist id="marcas">
+      <option value="Apple">
+      <option value="Samsung">
+      <option value="Xiaomi">
+      <option value="Huawei">
+      <option value="OnePlus">
+      <option value="Sony">
+      <option value="Oppo">
+      <option value="Realme">
+    </datalist>
+
+
+    <label for="precio">Selecciona el rango de precio:</label>
+    <select id="precio" name="precio">
+      <option value="0-200">Menos de 200€</option>
+      <option value="200-500">200€ - 500€</option>
+      <option value="500-1000">500€ - 1000€</option>
+      <option value="1000-2000">1000€ - 2000€</option>
+      <option value="2000+">Más de 2000€</option>
+    </select>
+
+  
+    <button onclick="buscarSmartphone()">Buscar</button>
+  </div>
+
+  <div id="resultado">
+    
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
