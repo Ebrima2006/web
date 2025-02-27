@@ -1,0 +1,24 @@
+<style>
+
+@font-face {
+    font-family: 'TituloFont';
+    src: url 'Super Reduce.ttf'; 
+}
+
+@font-face {
+    font-family: 'TextoFont';
+    src: url'Tacos de Tijuan.ttf'
+}
+
+
+.titulo {
+    font-family: 'TituloFont', sans-serif; 
+    font-size: 3em; 
+    color: hsl(50, 85%, 50%); 
+}
+
+.texto {
+    font-family: 'TextoFont', sans-serif; 
+    font-size: 2em;
+    color: hwb(252 5% 10%); 
+}

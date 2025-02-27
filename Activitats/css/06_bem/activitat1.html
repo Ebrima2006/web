@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="activitat1.css">
+    <style>
+       
+        header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #75fb32;
+        padding: 10px;
+        }
+                     
+               
+                       
+        .logo{
+        width: 100px; 
+        }
+               
+                       
+        .navegacion {
+        display: flex;
+        }
+               
+        .navegacion a {
+        margin: 0 10px;
+        text-decoration: none;
+        color: #333;
+        }
+               
+        .busqueda {
+        display: flex;
+        }
+               
+        .busqueda input[type="text"] {
+        padding: 5px;
+        margin-right: 5px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        }
+               
+        .busqueda input[type="submit"] {
+        padding: 5px 10px;
+        border: none;
+        border-radius: 4px;
+        background-color: #fa082d;
+        color: rgb(43, 172, 247);
+        cursor: pointer;
+        }
+        </style>   
+</head>
+<body>
+    <header>
+        <img class="logo" src="image.png" alt="Logo ">
+      
+          
+      
+      
+      <nav class="navegacion">
+        <a href="#inicio">Inicio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+          
+      <form class="busqueda" action="/buscar" method="get">
+        <input type="text" name="q" placeholder="Buscar...">
+       <input type="submit" value="Buscar">
+        </form>
+      </header>
+</body>
+</html>

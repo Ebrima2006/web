@@ -1,0 +1,13 @@
+<style>
+:root {
+--color-tema: #3498db; 
+}
+
+h1, a {
+color: var(--color-tema); 
+}
+
+a:hover {
+color: darken(var(--color-tema), 10%); 
+}
+</style>

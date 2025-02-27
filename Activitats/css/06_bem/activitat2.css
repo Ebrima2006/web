@@ -1,0 +1,49 @@
+.container {
+    max-width: 800px;
+    margin: 20px aut;
+    padding: 20px;
+    background-color: #ee0707;
+        
+    }
+    
+    h2 {
+    color: hsl(60, 85%, 51%);
+    }
+    
+    form {
+    margin-top: 20px;
+    }
+    
+    label {
+    display: block;
+    margin-bottom: 8px;
+    }
+    
+    input,
+    textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    }
+    
+    button {
+    background-color: #eb1cda;
+    color: #fbf7fb;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    }
+    
+    button:hover {
+    background-color: #23f32d;
+    }
+    .comment {
+    margin-top: 20px;
+    border-bottom: 1px solid hsl(0, 80%, 33%);
+    padding-bottom: 10px;
+    }
+    
+    .comment p {
+    margin: 8 px;
+    }
+    </style>
