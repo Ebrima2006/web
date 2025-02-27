@@ -1,0 +1,32 @@
+<style>
+body {
+font-size: x-large;
+font-style: normal;
+font-family: 'Arial', sans-serif;
+text-align: center;
+justify-content: center;
+text-justify: distribute;
+}
+
+header {
+background-color: hsl(0, 82%, 52%);
+color: #fff;
+padding: 10px;
+}
+
+h1 {
+font-size: 2em;
+font-weight: bold;
+margin: 0;
+color: aqua;
+}
+
+h2 {
+font-size: 1.5em;
+font-style: italic;
+color: rgb(107, 107, 244);           
+}
+
+        
+      
+</style>

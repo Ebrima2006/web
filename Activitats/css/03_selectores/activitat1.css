@@ -1,0 +1,27 @@
+<style>
+
+
+h2 { color: aqua;
+
+} 
+
+.manzana {
+
+  color: hsl(0, 95%, 50%);
+}
+
+.platano {
+  color: yellow;
+}
+
+.naranja {
+  color: orange;
+}
+
+.uva {
+  color: purple;
+}
+
+
+
+</style>

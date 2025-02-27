@@ -1,0 +1,27 @@
+<style>
+body {
+font-size: x-large;
+font-style: normal;
+font-family: 'Arial', sans-serif;
+text-align: center;
+}
+
+header {
+background-color: hsl(0, 82%, 52%);
+color: #fff;
+padding: 10px;
+}
+
+h1 {
+font-size: 2em;
+font-weight: bold;
+            
+}
+
+h2 {
+font-size: 1.5em;
+font-style: italic;
+            
+}
+
+</style>
