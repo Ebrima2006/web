@@ -1,0 +1,53 @@
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(310, 98%, 84%);
+}
+
+.escalera {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.parrafo { font-size: large;
+    padding: 20px;
+    margin: 5px;
+    color: #fff;
+}
+
+.amarillo {
+    background-color: #f7d61d; 
+}
+
+.verde {
+    background-color: #1ef31e; 
+}
+
+.azul {
+    background-color: #1e1ef1; 
+    width: 100%;
+}
+
+.rojo {
+    background-color: #fc0d0d; 
+}
+
+.naranja {
+    background-color: hsl(39, 91%, 52%); 
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+</style>
