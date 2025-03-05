@@ -1,0 +1,35 @@
+<style>
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f51414;
+}
+
+.parraf  strong {
+    position: relative;
+    display: inline-block;
+}
+
+.parrafo strong::after {
+    
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px; 
+    background-color: rgba(255, 255, 0, 0.5); 
+}
+
+
+
+
+
+
+
+
+
+
+
+</style>

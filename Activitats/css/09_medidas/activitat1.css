@@ -1,0 +1,52 @@
+<style>
+body {
+    font-family: Arial, sans-serif;
+    
+    
+    background-color: hsl(194, 64%, 78%);
+}
+
+header {
+    background-color: hsla(60, 92%, 66%, 0.993);
+    color: #fff;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+   
+}
+
+.contenido {
+    max-width: 600px;
+   
+    background-color: hsl(0, 89%, 71%);
+
+}
+
+p {
+    font-size: 1.2em;
+}
+
+img {
+    max-width: 100%;
+    height: 100%;
+    margin-top: 25px;
+}
+
+.detalles {
+    margin-top:25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
