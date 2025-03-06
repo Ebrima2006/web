@@ -1,0 +1,440 @@
+@import url(https://fonts.google.com/specimen/Montserrat?query=mont);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+
+
+ body{
+    font-family: 'Montserrat', sans-serif;
+ }
+
+
+
+ .wrapper {
+    width: 100vw;
+    height: 100vh;
+    background-color: #211277;
+    color: #fff;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+.brand {
+    margin-top: -7px;
+}
+
+.brand span {
+    color: rgb(34, 216, 89);
+}
+
+.menu{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+
+.menu li{
+    list-style: none;
+}
+
+
+.menu a {
+    color: #32ee0c;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+
+.menu .active{
+    color: rgb(34, 238, 85);
+}
+
+.menu a:hover {
+    background-color: rgb(148, 192, 25);
+    color:#2739c4 ;
+    transition: ease-in .4s;
+}
+.main {
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 2em;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+span {
+    color: rgb(43, 209, 52);
+}
+
+
+.main img {
+    width: 350px;
+    border: 7px solid rgb(0, 17, 255);
+    height: 450px;
+    width: 400px;
+    z-index: 1;
+}
+
+.about{
+     display: grid;
+     grid-template-columns: repeat(10,1fr);
+     width: 100vw;
+     align-items: center;
+}
+.about img {
+    width: 100%;
+    grid-column: 1/5;
+}
+
+
+.about-info {
+     grid-column: 5/10; 
+     padding: 3em;
+}
+
+.about-info h2 {
+    font-size: 2em;
+    color: #191c32;
+}
+
+
+.divider {
+    height: 4px;
+    width: 60px;
+    background-color: rgb(26, 100, 196);
+    margin-top: 5px;
+    margin-bottom: 2em;
+}
+
+.about p {
+    margin-bottom: 2em;
+
+}
+
+.portafolio {
+    width: 100vw;
+    background-color: #191c32;
+}
+
+.portafolio-headings {
+    width: 100vw;
+    padding: 5em;
+    color: #fff;
+}
+
+.portafolio-headings h2 {
+    font-size: 2.5em;
+
+}
+
+.portafolio .container {
+  width: 80vw;
+  height: 80vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.card {
+    width: 400px;
+    background-color: rgb(22, 196, 167);
+    margin-right: 5em;
+}
+
+.card-img-html {
+    width: 100%;
+    height: 170px;
+    background-image: url(img/Html.jpg);
+    background-size: cover;
+}
+
+.card-title-html {
+    padding: 20px;
+    color: rgb(30, 33, 210);
+}
+
+.card-activitas-html-links {
+  
+  justify-content: space-evenly;
+  display: flex;
+  
+}
+
+.card-activitas-html-links a {
+    color: #fff;
+    text-decoration: none;
+}
+.card-activitas-html-links i {
+    font-size: 1.5em;
+}
+
+.card-activitats-html {
+    display: flex;
+    align-self: center;
+    margin: 1em;
+
+}
+
+.card-activitats-html {
+    padding: 10px 20px;
+    background-color: rgb(0, 255, 234);
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    -webkit-box-shadow: 1px 3px 11px -5px rgba(102,231,200,0.69);
+    -moz-box-shadow: 1px 3px 11px -5px rgba(102,231,200,0.69);
+    box-shadow: 1px 3px 11px -5px rgba(102,231,200,0.69);  
+}
+.card-activitats-html:hover {
+    background-color: azure;
+    box-shadow: none;
+}
+
+
+.card-activitats-html a {
+    text-decoration: none;
+    color: #311bad;
+}
+.card-activitats-html {
+    margin: 0 auto ;
+    margin: 1em;
+    width: 90%;
+    justify-content: center;
+   
+}
+.activitats-html-content {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+
+
+.card-img {
+    width: 100%;
+    height: 170px;
+    background-image: url();
+    background-size: cover;
+}
+
+.card-title {
+    padding: 20px;
+    color: rgb(30, 72, 210);
+}
+
+.card-activitas-css-links {
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.card-activitas-css-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.card-activitas-css-links i {
+    font-size: 1.5em;
+}
+
+.card-activitats {
+    display: flex;
+    align-self: center;
+    margin: 1em;
+}
+
+.card-activitats {
+    padding: 10px 20px;
+    background-color: rgb(0, 255, 255);
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    -webkit-box-shadow: 1px 3px 11px -5px rgba(102,231,200,0.69);
+    -moz-box-shadow: 1px 3px 11px -5px rgba(102,231,200,0.69);
+    box-shadow: 1px 3px 11px -5px rgba(102,231,200,0.69);
+}
+.card-activitats:hover {
+    background-color: azure;
+    box-shadow: none;
+}
+
+.card-activitats a {
+    text-decoration: none;
+    color: #191c32;
+}
+.card-activitats {
+    margin: 0 auto;
+    margin: 1em;
+    width: 90%;
+    justify-content: center;
+}
+
+.activitats-css {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.color {
+    background-color: rgb(255, 255, 255);
+}
+.cv {
+    background-color: #ffffff;
+    width: 400px;
+    height: 60vh;
+    margin-left: 30em;
+    margin-top: 6em;
+   
+}
+.cv-img {
+    width: 100%;
+    height: 170px;
+    background-image: url(Curriculum\ Vitae\ Ebrima\ \ .png);
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.button-cv {
+    display: flex;
+    align-self: center;
+    margin: 1em;
+}
+
+.button-cv {
+    padding: 10px 20px;
+    background-color: rgb(0, 81, 255);
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: 2px 4px 12px -5px rgba(0, 0, 0, 0.69);
+}
+.button-cv:hover {
+    background-color: azure;
+    box-shadow: none;
+}
+
+.button-cv a {
+    text-decoration: none;
+    color: #1ec585;
+}
+.button-cv {
+    margin: 0 auto;
+}
+
+.button-cv {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    margin-top: 3em;
+}
+
+.contact-section {
+    background-color: #191c32;
+}
+.contact-headings {
+color: #fff;
+padding: 1em;
+font-size: 1em;
+}
+
+.container-contact {
+    padding: 2em;
+    margin: 0 auto;
+    
+}
+
+.container-contact img {
+    width: 200px;
+    height: 200px;
+    bottom: 0px;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin-top: 1em;
+    color: #fff;
+
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    margin-top: 1em;
+}
+
+.form input {
+    padding: 5px 10px;
+    margin-bottom: 1em;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+
+
+.form textarea {
+    height: 80px;
+    background: none;
+    color: #fff;
+    padding: 1em;
+    border: 1px solid #fff;
+}
+
+.btn-submit {
+    padding: 5px 10px;
+    margin: 1em;
+    border: none;
+    text-transform: uppercase;
+    background-color: rgb(0, 153, 255);
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 2px 4px 12px -5px rgba(102,231,200,0.69);
+}
+
+.btn-submit:hover {
+    background-color: #fff;
+    box-shadow: none;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 200px;
+    background-color: rgb(0, 119, 255);
+}
+
+.footer-content h2{
+    font-size: 3em;
+}
+.sotial-network i{
+    font-size: 1.5em;
+}
+.sotial-network {
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    margin-top: 1em;
+}
